@@ -4,20 +4,33 @@ The dataset consists of 100000 addresses: 50000 addresses were reported by users
 Address Features:
 
 Total number of transactions
+
 Number of transactions returned by the API
 Total amount sent
+
 Total amount received
+
 Number of unredeemed outputs: number of transactions with unspent outputs
+
 Current balance
+
 Total number of addresses to which the address sent coins
+
 Total number of addresses from which the address received coins
+
 Number of unique addresses to which the address sent coins
+
 Number of unique addresses from which the address received coins
+
 Average number of addresses in the address’s transaction input
+
 Average number of addresses in the address’s transaction output
+
 Total transaction fee from all transactions
 Average transaction fee
+
 Address PageRank score in the transaction graph
+
 Average clustering for the address transaction graph
 
 The address column has been omitted, only their features are provided. Some reported addresses (with a 1 in the Reported column) have no transaction resulting in similar features. A version in which similar features have been removed is included.
